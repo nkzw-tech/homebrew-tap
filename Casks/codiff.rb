@@ -1,6 +1,6 @@
 cask "codiff" do
-  version "1.15.0"
-  sha256 "225c5df485bd5ab2d27b0466ee5f282544dd761b001a23708835bc69f0970fe0"
+  version "1.16.0"
+  sha256 "78649161cd4e5f9c245e0ea1319d95faad66f0142260611b9d0e1937452c2543"
 
   url "https://github.com/nkzw-tech/codiff/releases/download/v#{version}/Codiff-darwin-arm64-#{version}.zip"
   name "Codiff"
@@ -14,7 +14,7 @@ cask "codiff" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on :macos
+  depends_on macos: :ventura
 
   app "Codiff.app"
   binary "#{appdir}/Codiff.app/Contents/Resources/app/bin/codiff-app",
