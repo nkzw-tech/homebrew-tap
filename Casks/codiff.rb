@@ -1,6 +1,6 @@
 cask "codiff" do
-  version "1.18.1"
-  sha256 "c89557dbde8cdffd093318a0e507e57dd67ea7047af71d0f728e2e5e3b9ca1c3"
+  version "1.18.2"
+  sha256 "462f6dc51a282a93ccaec1a439059a3bf140c44bf8947452993ef72242310369"
 
   url "https://github.com/nkzw-tech/codiff/releases/download/v#{version}/Codiff-darwin-arm64-#{version}.zip"
   name "Codiff"
