@@ -13,5 +13,6 @@ jobs:
       - name: Audit cask
         run: |
           brew tap nkzw-tech/tap "$GITHUB_WORKSPACE"
+          brew trust --cask nkzw-tech/tap/codiff
           brew audit --cask nkzw-tech/tap/codiff
           brew style --cask nkzw-tech/tap/codiff
